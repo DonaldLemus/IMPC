@@ -31,7 +31,8 @@ namespace IMPC.Clases
             double pesoKG = this.peso / KG;
             double estaturaMTS = (double)this.altura / 100;
             double altu = (Math.Pow(estaturaMTS, 2));
-            this.imc = pesoKG / altu;
+            this.imc = peso / altu;
+            this.imc = (Math.Round(this.imc,2));      
             return this.imc.ToString();
         }
 
