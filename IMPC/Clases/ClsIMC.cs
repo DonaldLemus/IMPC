@@ -919,7 +919,7 @@ namespace IMPC.Clases
                 mensaje = "Realizar actividades fisicas minimo 5 veces por semana \n"+
                     "Caminar 5 km \n" +
                     "Jugar baloncesto (encestar canastas) \n" +
-                    "Bailar de fomra intensa \n"+
+                    "Bailar de forma intensa \n"+
                     "Nadar, saltar cuerda \n"+
                     "Andar en bicicleta \n"+
                     "\nPara más información consulte a un especialista\n";
@@ -929,10 +929,10 @@ namespace IMPC.Clases
             {
                 mensaje = "En sus inicios caminar es una buena opción \n"+
                     "Es ideal realizar esta actividad fisica por lo menos 5 veces por semana \n"+
-                    "El ejercicio debe de ser conservador, con el fina de desarrolar \n"+
+                    "El ejercicio debe de ser conservador, con el fin de desarrollar \n"+
                     "una condicion fisica cardiorespiratoria-metabolica y evitar lesiones \n"+
-                    "Relizar los ejercicios cuando haya una temperatura muy elevada ni muy baja \n"+
-                    "No usar trajes temicos ni ropa extra para incrementar la sudoración \n"+
+                    "Relizar los ejercicios cuando no haya una temperatura muy elevada ni muy baja \n"+
+                    "No usar trajes termicos ni ropa extra para incrementar la sudoración \n"+
                     "Usar mancuernas mientras caminas para ejercitar brazos y piernas \n"+
                     "\nPara más información consulte a un especialista\n";
             }
