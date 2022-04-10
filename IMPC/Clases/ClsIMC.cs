@@ -16,22 +16,18 @@ namespace IMPC.Clases
         public int peso { get; set; }
         public double imc { get; set; }
 
-        public ClsIMC(String _nombre, int _edad, int _altura, char _sexo, int _peso)
+        public string prueba(String _nombre, int _edad, char _sexo, int _altura, int _peso)
         {
             nombre = _nombre;
             edad = _edad;
             altura = _altura;
-            peso = _peso;
             sexo = _sexo;
             peso = _peso;
-        }
-    
-        public string prueba()
-        {
+
             double pesoKG = this.peso / KG;
             double estaturaMTS = (double)this.altura / 100;
             double altu = (Math.Pow(estaturaMTS, 2));
-            this.imc = peso / altu;
+            this.imc = pesoKG / altu;
             this.imc = (Math.Round(this.imc,2));      
             return this.imc.ToString();
         }
